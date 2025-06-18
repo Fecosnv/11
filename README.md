@@ -18,8 +18,7 @@ Aplikácia prehrá zvukový signál a pošle notifikáciu na konci každého ús
 ## Použitie
 
 1. Vytvorte v Xcode nový projekt **App** so SwiftUI.
-2. Nahraďte automaticky vytvorený súbor `ContentView.swift` a `MyApp.swift`
-   obsahom súboru [`PomodoroApp.swift`](PomodoroApp.swift).
+2. Odstráňte pôvodné súbory `ContentView.swift` a `MyApp.swift` a nahraďte ich súbormi `PomodoroTimerApp.swift`, `ContentView.swift` a `TimerModel.swift` z tohto repozitára.
    Po spustení uvidíte kruhový ukazovateľ odpočtu a tlačidlo **Štart/Zastaviť**.
    Ak timer zastavíte, tlačidlo začne blikať s textom **Štart**.
    Klepnutím na zobrazený čas prepnete spôsob odpočtu medzi režimom 25 → 0
@@ -31,7 +30,7 @@ na pozadí.
 
 ## Tipy na zobrazenie náhľadu a spustenie na iPhone
 
-1. V Xcode otvoríte súbor `PomodoroApp.swift` a v pravom paneli kliknete na
+1. V Xcode otvoríte súbor `PomodoroTimerApp.swift` a v pravom paneli kliknete na
    `Resume` pri štruktúre `ContentView_Previews`. Tak sa zobrazí SwiftUI
    náhľad obrazovky.
 2. Ak chcete aplikáciu otestovať na fyzickom zariadení, pripojte iPhone k
