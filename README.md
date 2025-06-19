@@ -34,6 +34,8 @@ na pozadí.
    `Resume` pri štruktúre `ContentView_Previews`. Tak sa zobrazí SwiftUI
    náhľad obrazovky.
 2. Ak chcete aplikáciu otestovať na fyzickom zariadení, pripojte iPhone k
-   počítaču, v nastaveniach targetu zvoľte svoje Apple ID ako **Team** a
-   kliknite na **Run**. Xcode vytvorí dočasný profil na podpis a aplikáciu
-   nainštaluje.
+   počítaču a otvorte v Xcode menu **Window > Devices and Simulators**, kde
+   zariadenie povolíte. V nastaveniach targetu na karte
+   **Signing & Capabilities** zaškrtnite **Automatically manage signing** a ako
+   **Team** vyberte svoje Apple ID. Po zvolení iPhonu ako run targetu kliknite
+   na **Run** a Xcode aplikáciu automaticky nainštaluje.
