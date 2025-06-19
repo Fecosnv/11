@@ -30,6 +30,7 @@ class TimerModel: ObservableObject {
     @Published var isCountDown = true
 
     init() {
+        seconds = 0
         let duration = intervals[0].duration * 60
         seconds = isCountDown ? duration : 0
     }
