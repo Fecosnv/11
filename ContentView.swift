@@ -47,7 +47,7 @@ struct ContentView: View {
             .animation(blink ? .easeInOut(duration: 0.8).repeatForever(autoreverses: true) : .default, value: blink)
         }
         .padding()
-        .onChange(of: model.isRunning) { running in
+        .onChange(of: model.isRunning) { _, running in
             blink = !running
         }
         .onReceive(NotificationCenter.default.publisher(for: .promptNewCycle)) { _ in
